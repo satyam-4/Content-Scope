@@ -1,8 +1,19 @@
+import { Header } from "./components/Header";
+import { SummaryCard } from "./components/SummaryCard";
+import { AnalyticsCards } from "./components/AnalyticsCards";
+import { WebsiteList } from "./components/WebsiteList";
+// import { FocusModeCard } from "./components/FocusModeCard";
+// import { ActionButtons } from "./components/ActionButtons";
+
 const Popup = () => {
     return (
-        <div className="w-[300px] p-4 text-center">
-            <h1 className="text-xl font-semibold text-blue-600">ContentScope</h1>
-            <p className="text-gray-700 mt-2">Tracking your interests...</p>
+        <div className="pb-2 w-[460px] text-white">
+            <Header />
+            <SummaryCard />
+            <AnalyticsCards />
+            <WebsiteList />
+            {/* <FocusModeCard /> */}
+            {/* <ActionButtons /> */}
         </div>
     );
 };

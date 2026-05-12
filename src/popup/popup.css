@@ -1,1 +1,8 @@
 @import "tailwindcss";
+@import "geist/font/style.css";
+@import "@fontsource/jetbrains-mono";
+
+@theme {
+  --font-sans: "Geist", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}

@@ -7,7 +7,7 @@ import { WebsiteList } from "./components/WebsiteList";
 
 const Popup = () => {
     return (
-        <div className="pb-2 w-[460px] text-white">
+        <div className="bg-[#18181b] overflow-hidden w-[480px] text-white font-sans">
             <Header />
             <SummaryCard />
             <AnalyticsCards />
